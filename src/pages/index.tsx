@@ -19,33 +19,33 @@ const Event = dynamic<EventProps>(
 const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://linkedin.com/in/sameemul-haque',
+		href: 'https://www.linkedin.com/in/michael-azmi-53b66a261/',
 		icon: <Icon className="mr-3" icon="line-md:linkedin" />,
 		text: 'LinkedIn',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: '/projects',
+		href: '/',
 		icon: <Icon className="mr-3" icon="line-md:text-box-multiple" />,
 		text: 'Projects',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/sameemul-haque',
+		href: 'https://github.com/micoazmi',
 		icon: <Icon className="mr-3" icon="line-md:github" />,
 		text: 'GitHub',
 	},
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: '/blog',
+		href: '/',
 		icon: <Icon className="mr-3" icon="line-md:edit" />,
 		text: 'Blog',
 	},
 	{
 		type: NavigationItemType.LINK,
-		href: 'https://drive.google.com/file/d/1_xn33U0VfmW2oD9iyBH1ki12SqkJ8Avr/view',
+		href: 'https://drive.google.com/file/d/1OlFFuLGSjH68E54S5LRAYVLF6RdSv-hq/view?usp=drive_link',
 		icon: <Icon className="mr-3" icon="mdi:resume" />,
 		text: 'Resume',
 	},
@@ -75,7 +75,7 @@ export default function HomePage(): JSX.Element {
 							className="text-gray-800 dark:text-white text-2xl sm:text-3xl md:text-5xl lg:text-7xl tracking-tight font-extrabold  ">
 							Hey <span className="inline-block origin-70 animate-wave">👋</span> I&apos;m
 							<br />
-							Sameemul Haque
+							Michael Hajj Azmi
 							<br />a <Pill.Standard className="mt-4">developer</Pill.Standard>
 						</Animate>
 

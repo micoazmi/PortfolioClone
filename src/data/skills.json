@@ -21,13 +21,6 @@
 		}
 	},
 	{
-		"title": "Python",
-		"icon": "devicon:python",
-		"link": {
-			"url": "https://python.org/"
-		}
-	},
-	{
 		"title": "Node.js",
 		"icon": "devicon:nodejs",
 		"link": {
@@ -70,7 +63,7 @@
 		}
 	},
 	{
-		"title": "C",
+		"title": "C#",
 		"icon": "devicon:c",
 		"link": {
 			"url": "https://www.open-std.org/jtc1/sc22/wg14/"
@@ -102,20 +95,6 @@
 		"icon": "devicon:powershell",
 		"link": {
 			"url": "https://learn.microsoft.com/en-us/powershell/"
-		}
-	},
-	{
-		"title": "Markdown",
-		"icon": "mdi:language-markdown",
-		"link": {
-			"url": "https://www.markdownguide.org/"
-		}
-	},
-	{
-		"title": "Latex",
-		"icon": "file-icons:latex",
-		"link": {
-			"url": "https://www.latex-project.org/help/documentation/"
 		}
 	},
 	{

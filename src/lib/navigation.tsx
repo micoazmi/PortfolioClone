@@ -19,7 +19,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'line-md:edit',
 			text: 'Blog',
-			href: '/blog',
+			href: '/',
 		},
 		{
 			type: NavigationItemType.LINK,
@@ -31,13 +31,13 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'line-md:text-box-multiple',
 			text: 'Projects',
-			href: '/projects',
+			href: '/',
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'feather:clock',
 			text: 'Timeline',
-			href: '/timeline',
+			href: '/',
 		},
 	],
 	[
@@ -59,28 +59,28 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'line-md:discord',
 			text: 'Discord',
-			href: 'https://discordapp.com/users/764716671382061096',
+			href: '/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'line-md:instagram',
 			text: 'Instagram',
-			href: 'https://instagram.com/sameemul_haque',
+			href: '/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'line-md:twitter-x',
 			text: 'Twitter',
-			href: 'https://twitter.com/sameemul_haque',
+			href: '/',
 			external: true,
 		},
 		{
 			type: NavigationItemType.LINK,
 			icon: 'line-md:email',
 			text: 'Email',
-			href: 'mailto:samhaqk@gmail.com',
+			href: 'mailto:micoazmi@yahoo.com',
 			external: true,
 		},
 		// {
@@ -114,7 +114,7 @@ export function useNavigation(): {
 							href: '/status',
 						} as NavigationItem,
 					],
-			  ]
+				]
 			: []),
 	];
 

@@ -26,14 +26,13 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
 
 	return (
-		<Layout.Default seo={{ title: 'sameemul haque ─ projects' }}>
+		<Layout.Default seo={{ title: 'Michael hajj ─ projects' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
 						{projects.map((project, index) => {
 							return (
-								<div
-									key={index}>
+								<div key={index}>
 									<Animate
 										animation={{ y: [50, 0], opacity: [0, 1] }}
 										key={index}
@@ -44,24 +43,24 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 											actions={[
 												...(project.post
 													? [
-														{
-															type: ListActionType.LINK,
-															external: false,
-															href: project.post,
-															icon: 'feather:edit-3',
-															label: `Blog post about ${project.name}`,
-														} as ListAction,
-													]
+															{
+																type: ListActionType.LINK,
+																external: false,
+																href: project.post,
+																icon: 'feather:edit-3',
+																label: `Blog post about ${project.name}`,
+															} as ListAction,
+														]
 													: []),
 												...(project.homepage
 													? [
-														{
-															type: ListActionType.LINK,
-															href: project.homepage,
-															icon: 'feather:link',
-															label: `${project.name} homepage`,
-														} as ListAction,
-													]
+															{
+																type: ListActionType.LINK,
+																href: project.homepage,
+																icon: 'feather:link',
+																label: `${project.name} homepage`,
+															} as ListAction,
+														]
 													: []),
 												{
 													type: ListActionType.LINK,
